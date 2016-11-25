@@ -9,6 +9,11 @@
 # cd $brainstormr
 #
 
+export ANDROID_HOME=/Users/edu/Library/Android/sdk
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$JAVA_HOME/bin
+
 #shopping=~/workspace/pruebas/cells-hackaton/cells-shoppin
 
 # set up a quick web server
